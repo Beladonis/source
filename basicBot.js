@@ -265,7 +265,7 @@
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 30, // 1-200
             startupVolume: 5, // 0-100
-            startupEmoji: tru, // true or false
+            startupEmoji: true, // true or false
             autowoot: true,
             autoskip: false,
             smartSkip: true,
