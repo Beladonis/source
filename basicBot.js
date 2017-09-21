@@ -248,20 +248,20 @@
     var basicBot = {
         version: '2.11.0',
         status: false,
-        name: 'basicBot',
+        name: 'BelaBot',
         loggedInID: null,
-        scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
+        scriptLink: 'https://rawgit.com/Beladonis/source/master/basicBot.js',
         cmdLink: 'http://git.io/245Ppg',
-        chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
+        chatLink: 'https://rawgit.com/Beladonis/source/master/lang/en.json',
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: 'basicBot',
+            botName: 'BelaBot',
             language: 'english',
-            chatLink: 'https://rawgit.com/basicBot/source/master/lang/en.json',
-            scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
+            chatLink: 'https://rawgit.com/Beladonis/source/master/lang/en.json',
+            scriptLink: 'https://rawgit.com/Beladonis/source/master/basicBot.js',
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 30, // 1-200
             startupVolume: 5, // 0-100
