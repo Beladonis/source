@@ -266,12 +266,12 @@
             startupCap: 30, // 1-200
             startupVolume: 5, // 0-100
             startupEmoji: true, // true or false
-            autowoot: true,
+            autowoot: false,
             autoskip: false,
-            smartSkip: true,
+            smartSkip: false,
             cmdDeletion: true,
             maximumAfk: 120,
-            afkRemoval: true,
+            afkRemoval: false,
             maximumDc: 60,
             bouncerPlus: true,
             blacklistEnabled: true,
@@ -288,7 +288,7 @@
             autodisable: false,
             commandCooldown: 30,
             usercommandsEnabled: true,
-            thorCommand: false,
+            thorCommand: true,
             thorCooldown: 10,
             skipPosition: 3,
             skipReasons: [
